@@ -2,7 +2,7 @@
 
 <p align="center">  <a href="./README.md">中文</a> | <a href="./README_EN.md">English</a></p>
 
-This repository provides data samples associated with the manuscript **A Graph-Topology-Constrained Retrieval-Augmented Reasoning Framework for Rail Transit Locomotive Maintenance with Large Language Models**. The samples demonstrate how rail transit electric locomotive maintenance records can be organized into a Locomotive Maintenance Knowledge Graph (LMKG), including de-identified tabular samples, graph-relation JSON samples, and representative prompt templates.
+This repository provides data samples associated with the manuscript **A Graph-Topology-Constrained Retrieval-Augmented Reasoning Framework for Rail Transit Locomotive Maintenance with Large Language Models**. 
 
 This repository contains de-identified sample data only. It does not contain the complete enterprise maintenance dataset. The complete raw data include proprietary locomotive maintenance records, operational information, and project-related content, and therefore cannot be publicly released.
 

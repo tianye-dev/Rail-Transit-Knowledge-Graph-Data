@@ -2,7 +2,7 @@
 
 <p align="center">  <a href="#-中文说明">中文</a> | <a href="./README_EN.md">English</a></p>
 
-本仓库为论文 **A Graph-Topology-Constrained Retrieval-Augmented Reasoning Framework for Rail Transit Locomotive Maintenance with Large Language Models** 提供配套数据样例。样例展示了轨道交通电力机车检修记录如何被组织为机车检修知识图谱（Locomotive Maintenance Knowledge Graph, LMKG），内容包括去标识化表格样例、图谱关系 JSON 样例以及代表性提示词模板。
+本仓库为论文 **A Graph-Topology-Constrained Retrieval-Augmented Reasoning Framework for Rail Transit Locomotive Maintenance with Large Language Models** 提供配套数据样例。
 
 本仓库仅公开论文配套的去标识化样例数据，不包含完整企业检修数据集。完整原始数据涉及企业机车检修记录、运维信息和项目相关内容，受数据所有方限制，不能公开发布。
 
