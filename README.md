@@ -1,10 +1,8 @@
-# LMKG-Samples
+# 轨道交通知识图谱数据
 
 <p align="center">  <a href="#-中文说明">中文</a> | <a href="./README_EN.md">English</a></p>
 
-本仓库为论文 **A Graph-Topology-Constrained Retrieval-Augmented Reasoning Framework for Rail Transit Locomotive Maintenance with Large Language Models** 提供配套数据样例。
-
-本仓库仅公开论文配套的去标识化样例数据，不包含完整企业检修数据集。完整原始数据涉及企业机车检修记录、运维信息和项目相关内容，受数据所有方限制，不能公开发布。
+本仓库为论文 **A Graph-Topology-Constrained Retrieval-Augmented Reasoning Framework for Rail Transit Locomotive Maintenance with Large Language Models** 提供配套数据。
 
 ## 仓库结构
 
@@ -12,10 +10,9 @@
 .
 ├── README.md
 ├── README_EN.md
-├── README.txt
 ├── PromptList.py
-├── 行修更换、互换记录数据样例.xlsx
-└── 图谱信息样例-50/
+├── 行修更换、互换记录数据.xlsx
+└── 图谱信息/
     ├── *.json
     └── ...
 ```
@@ -24,8 +21,8 @@
 
 | 路径 | 内容 |
 |---|---|
-| [行修更换、互换记录数据样例.xlsx](./行修更换、互换记录数据样例.xlsx) | 去标识化后的检修记录表格样例，展示原始文本、部件、故障和处理字段。 |
-| [图谱信息样例-50/](./图谱信息样例-50/) | 50 个图谱关系 JSON 样例，用于展示从检修记录中抽取得到的节点和关系。 |
+| [行修更换、互换记录数据.xlsx](./行修更换、互换记录数据.xlsx) | 去标识化后的检修记录表格样例，展示原始文本、部件、故障和处理字段。 |
+| [图谱信息/](./图谱信息/) | 图谱关系 JSON。 |
 | [PromptList.py](./PromptList.py) | 代表性提示词模板，覆盖实体抽取、关系抽取、实体链优化和基于检索证据的回答生成。 |
 | [README.txt](./README.txt) | 原始简要说明。 |
 
@@ -44,13 +41,3 @@
 | `RAG_ANSWER_GENERATE_PROMPT` | 基于检索到的图谱信息生成检修问答回答。 |
 
 这些模板用于说明 LLM-KG 协同抽取和拓扑约束检索增强推理中的提示词设计，不代表完整工程实现。
-
-## 数据访问说明
-
-本仓库仅包含去标识化后的样例数据。完整原始数据包含企业机车检修记录、运维信息和项目相关内容，不能公开发布。更多去标识化支持数据可在数据所有方许可下向论文通讯作者合理请求。
-
-## 引用
-
-如果本仓库中的样例数据对您的研究有帮助，请引用关联论文：
-
-> A Graph-Topology-Constrained Retrieval-Augmented Reasoning Framework for Rail Transit Locomotive Maintenance with Large Language Models.

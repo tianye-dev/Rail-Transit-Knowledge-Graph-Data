@@ -1,0 +1,103 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "线"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "变成红线(线)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "线"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "AB线故障(线)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "AB线故障(线)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(AB线故障)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(AB线故障)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "频繁报MVB AB线故障(下载数据分析)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "AB线故障(线)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "检查通讯设备(AB线故障)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "AB线故障(线)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "排查短接设备(AB线故障)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "AB线故障(线)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "恢复插头(AB线故障)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "预防性更换(BCM模块)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "库内试验(BCM模块)"
+            },
+            "name": "验证"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "库内试验(BCM模块)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(库内试验)"
+            },
+            "name": "产生"
+        }
+    ]
+}

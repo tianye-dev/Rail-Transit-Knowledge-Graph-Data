@@ -1,0 +1,125 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "辅助逆变器"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "输出过压(辅助逆变器)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "辅逆"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "隔离(辅逆)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "输出过压(辅助逆变器)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "库内实验(输出过压)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "输出过压(辅助逆变器)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(输出过压)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "隔离(辅逆)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "测量(滤波电容)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "库内实验(输出过压)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "良好(库内实验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(输出过压)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "未见异常(下载数据分析)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "测量(滤波电容)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(测量)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "输出过压(辅助逆变器)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "预防性更换(TCU1-ACC板卡)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "隔离(辅逆)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(三相开关)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(三相开关)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "测量(滤波电容)"
+            },
+            "name": "验证"
+        }
+    ]
+}

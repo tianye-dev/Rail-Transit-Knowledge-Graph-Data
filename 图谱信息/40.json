@@ -1,0 +1,147 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "闸缸"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "压力不缓解(100kpa)(闸缸)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "作用管"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "压力未下降(作用管)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "压力不缓解(100kpa)(闸缸)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "库内试验(闸缸压力不缓解)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "压力未下降(作用管)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载BCU数据分析(作用管压力未下降)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "库内试验(闸缸压力不缓解)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(库内试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "下载BCU数据分析(作用管压力未下降)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "压力未下降(下载BCU数据分析)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "试验(三通阀)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "试验(切换阀)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "压力不缓解(100kpa)(闸缸)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "按压单缓按钮(闸缸)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "压力未下降(作用管)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(三通阀)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "压力未下降(作用管)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(切换阀)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(三通阀)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "试验(三通阀)"
+            },
+            "name": "验证"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(切换阀)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "试验(切换阀)"
+            },
+            "name": "验证"
+        }
+    ]
+}

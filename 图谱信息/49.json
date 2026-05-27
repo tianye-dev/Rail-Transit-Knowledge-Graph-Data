@@ -1,0 +1,59 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "接触器"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "卡合(接触器)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "卡合(接触器)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "上车反复试验(接触器)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "上车反复试验(接触器)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "动作灵活无卡滞(上车反复试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "卡合(接触器)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(接触器,31K01)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(接触器,31K01)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "上车反复试验(接触器)"
+            },
+            "name": "验证"
+        }
+    ]
+}

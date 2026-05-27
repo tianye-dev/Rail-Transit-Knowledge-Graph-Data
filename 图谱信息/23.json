@@ -1,0 +1,92 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "斩波管"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "故障(斩波管)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "故障(斩波管)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(斩波管故障)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(斩波管故障)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "阻值正常(阻值测量)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "阻值测量(GBT)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "阻值正常(阻值测量)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "阻值测量(斩波电容)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "阻值正常(阻值测量)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "故障(斩波管)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "预防性更换(门极驱动板)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "预防性更换(门极驱动板)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "库内试验(门极驱动板)"
+            },
+            "name": "验证"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "库内试验(门极驱动板)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(库内试验)"
+            },
+            "name": "产生"
+        }
+    ]
+}
