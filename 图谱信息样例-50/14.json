@@ -1,0 +1,158 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "主断环硬件回路"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "断开(主断环硬件回路)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "主断"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "跳(主断)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "受电弓"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "降下(受电弓)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "跳(主断)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "甩单节维持运行(单节)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "原边接地(TCU)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载CCU数据分析(原边接地)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "库内高压试验(原边接地)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(库内高压试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "溜车试验(原边接地)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(溜车试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "检查接线(原边电流传感器)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "接线正常(检查接线)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "检查接线(回流电流传感器)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "接线正常(检查接线)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "检查(相关线路)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(检查)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "校验(相关线路)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(校验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "原边接地(TCU)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "预防性更换(回流电流互感器)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "预防性更换(回流电流互感器)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "高压试验(回流电流互感器)"
+            },
+            "name": "验证"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "高压试验(回流电流互感器)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(高压试验)"
+            },
+            "name": "产生"
+        }
+    ]
+}

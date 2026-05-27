@@ -1,0 +1,125 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "模块"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "牵引封锁(后备信号)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "制动转换塞门"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "牵引封锁(后备信号)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "牵引封锁(后备信号)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(牵引封锁)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "牵引封锁(后备信号)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "测量(线路)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "牵引封锁(后备信号)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "库内给流试验(牵引封锁)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "测量(线路)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "未发现异常(测量)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "库内给流试验(牵引封锁)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(库内给流试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "牵引封锁(后备信号)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(DIM12模块)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "牵引封锁(后备信号)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(后备制动转换塞门)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(DIM12模块)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "库内给流试验(牵引封锁)"
+            },
+            "name": "验证"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(后备制动转换塞门)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "库内给流试验(牵引封锁)"
+            },
+            "name": "验证"
+        }
+    ]
+}

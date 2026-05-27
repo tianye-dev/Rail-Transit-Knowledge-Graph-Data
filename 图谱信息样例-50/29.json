@@ -1,0 +1,158 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "机箱"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "OCE故障(机箱)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "机箱"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "失电(机箱)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "OCE故障(机箱)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(机箱)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "OCE故障(机箱)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(电源板)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "OCE故障(机箱)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(CPU板卡)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "失电(机箱)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "重启(机箱)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "失电(机箱)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(机箱)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "上车检查(机箱)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(上车检查)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "库内试验(机箱)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(库内试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "编组试验(机箱)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(编组试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(机箱)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "库内试验(机箱)"
+            },
+            "name": "验证"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(机箱)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "编组试验(机箱)"
+            },
+            "name": "验证"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "OCE故障(机箱)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "上车检查(机箱)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "失电(机箱)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "上车检查(机箱)"
+            },
+            "name": "需要"
+        }
+    ]
+}

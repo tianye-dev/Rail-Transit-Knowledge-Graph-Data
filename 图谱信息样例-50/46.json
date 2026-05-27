@@ -1,0 +1,70 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "中继阀"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "大排风(中继阀)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "大排风(中继阀)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "上车试验(中继阀大排风)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "大排风(中继阀)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(中继阀大排风)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "上车试验(中继阀大排风)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(上车试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "대排风(中继阀)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "预防性更换(中继阀)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "预防性更换(中继阀)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "上车试验(中继阀大排风)"
+            },
+            "name": "验证"
+        }
+    ]
+}

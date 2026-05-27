@@ -1,0 +1,103 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "中继阀"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "排风不止(中继阀)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "排风不止(中继阀)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "上车试验(排风不止)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "上车试验(排风不止)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "故障消失(上车试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "上车试验(排风不止)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "未出现排风现象(上车试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "排风不止(中继阀)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(中继阀)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(中继阀)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "充风试验(中继阀)"
+            },
+            "name": "验证"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(中继阀)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "保压试验(中继阀)"
+            },
+            "name": "验证"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "充风试验(中继阀)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "充风正常(充风试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "保压试验(中继阀)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "保压正常(保压试验)"
+            },
+            "name": "产生"
+        }
+    ]
+}

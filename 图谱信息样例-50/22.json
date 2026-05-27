@@ -1,0 +1,48 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "电机"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "温度高(电机)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "温度高(电机)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(温度高)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(温度高)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "温度在负50度至70度之间波动(下载数据分析)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "温度高(电机)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "预防性更换(温度传感器, B1电机温度传感器)"
+            },
+            "name": "采用"
+        }
+    ]
+}

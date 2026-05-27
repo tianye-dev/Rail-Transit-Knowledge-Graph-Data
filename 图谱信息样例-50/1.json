@@ -1,0 +1,92 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "A网"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "脱网(A网)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "A网"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "闪红(A网)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "脱网(A网)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(通信模块)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "脱网(A网)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "下载数据(LTE数据)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "脱网(A网)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "下载数据(OCE数据)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "闪红(A网)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(通信模块)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "闪红(A网)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "下载数据(LTE数据)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "闪红(A网)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "下载数据(OCE数据)"
+            },
+            "name": "采用"
+        }
+    ]
+}

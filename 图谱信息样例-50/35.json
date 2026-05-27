@@ -1,0 +1,70 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "网"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "闪红脱网(网)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "网"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "无法正常识别sim卡信息(网)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "无法正常识别sim卡信息(网)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(无法正常识别sim卡信息)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "检查(主机设备)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "sim卡松动(检查)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "无法正常识别sim卡信息(网)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "紧固(sim卡)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "紧固(sim卡)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "检查(主机设备)"
+            },
+            "name": "验证"
+        }
+    ]
+}

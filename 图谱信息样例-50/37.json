@@ -1,0 +1,92 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "压力释放阀"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "压力释放阀保护(压力释放阀)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "压力释放阀"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "右角处有凸起(压力释放阀)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "压力释放阀保护(压力释放阀)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(压力释放阀保护)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(压力释放阀保护)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "误报(下载数据分析)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "库内实验(压力释放阀)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(库内实验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "压力释放阀保护(压力释放阀)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "预防性更换微动开关并打胶处理(微动开关)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "右角处有凸起(压力释放阀)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "预防性更换并打胶处理(压力释放阀)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "预防性更换并打胶处理(压力释放阀)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "库内实验(压力释放阀)"
+            },
+            "name": "验证"
+        }
+    ]
+}

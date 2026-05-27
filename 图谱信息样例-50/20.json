@@ -1,0 +1,70 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "闭合不上(电源脱扣)"
+            },
+            "endNode": {
+                "label": "部件名称",
+                "name": "电源脱扣"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "闭合不上(电源脱扣)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "上车检查(接地继电器)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "闭合不上(电源脱扣)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "检查(电台设备及相关线路)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "上车检查(接地继电器)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常无接地(上车检查)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "检查(电台设备及相关线路)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(检查)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "闭合不上(电源脱扣)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(电源脱扣)"
+            },
+            "name": "采用"
+        }
+    ]
+}

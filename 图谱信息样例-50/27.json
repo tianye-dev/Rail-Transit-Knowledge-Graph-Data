@@ -1,0 +1,81 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "牵引电机"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "无流(牵引电机)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "通讯"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "故障(通讯)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "网卡板"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "故障(网卡板)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "故障(通讯)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "预防性更换(MVB板)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "故障(网卡板)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "预防性更换(6US板)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "预防性更换(MVB板)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(库内多次试验)"
+            },
+            "name": "验证"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "预防性更换(6US板)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(库内多次试验)"
+            },
+            "name": "验证"
+        }
+    ]
+}

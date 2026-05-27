@@ -1,0 +1,114 @@
+{
+    "relationships": [
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "主断路器"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "跳主断(主断路器)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "部件名称",
+                "name": "TCU"
+            },
+            "endNode": {
+                "label": "故障",
+                "name": "充电超时(TCU)"
+            },
+            "name": "发生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "跳主断(主断路器)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "下载数据分析(跳主断)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "充电超时(TCU)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "检查(充电接触器)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "充电超时(TCU)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "检查(充电电阻)"
+            },
+            "name": "需要"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "检查(充电接触器)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(检查)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "检查(充电电阻)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(检查)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "实验方法",
+                "name": "库内试验(充电接触器)"
+            },
+            "endNode": {
+                "label": "实验结果",
+                "name": "正常(库内试验)"
+            },
+            "name": "产生"
+        },
+        {
+            "startNode": {
+                "label": "故障",
+                "name": "充电超时(TCU)"
+            },
+            "endNode": {
+                "label": "处理方法",
+                "name": "更换(充电接触器)"
+            },
+            "name": "采用"
+        },
+        {
+            "startNode": {
+                "label": "处理方法",
+                "name": "更换(充电接触器)"
+            },
+            "endNode": {
+                "label": "实验方法",
+                "name": "库内试验(充电接触器)"
+            },
+            "name": "验证"
+        }
+    ]
+}
