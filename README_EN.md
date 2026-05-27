@@ -39,5 +39,3 @@ This repository provides supporting data for the paper **A Graph-Topology-Constr
 | `SH_RELATIONS_EXTRACT_PROMPT` | Extracts relationships among entities according to an entity list. |
 | `ENTITY_CHAIN_OPTIMIZATION_PROMPT` | Selects information related to the question intent from graph entity chains. |
 | `RAG_ANSWER_GENERATE_PROMPT` | Generates maintenance question-answering responses based on retrieved graph information. |
-
-These templates are used to illustrate the prompt design in LLM-KG collaborative extraction and topology-constrained retrieval-augmented reasoning. They do not represent a complete engineering implementation.

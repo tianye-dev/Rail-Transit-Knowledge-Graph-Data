@@ -39,5 +39,3 @@
 | `SH_RELATIONS_EXTRACT_PROMPT` | 根据实体列表抽取实体间关系。 |
 | `ENTITY_CHAIN_OPTIMIZATION_PROMPT` | 从图谱实体链中筛选与问题意图相关的信息。 |
 | `RAG_ANSWER_GENERATE_PROMPT` | 基于检索到的图谱信息生成检修问答回答。 |
-
-这些模板用于说明 LLM-KG 协同抽取和拓扑约束检索增强推理中的提示词设计，不代表完整工程实现。
